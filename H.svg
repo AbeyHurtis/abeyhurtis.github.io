@@ -1,0 +1,25 @@
+<svg width="100" height="80" viewBox="0 0 100 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1" />
+    </filter>
+  </defs>
+
+  <!-- Blue Layer (bottom) -->
+  <text x="28" y="60" font-family="'Arial Black', Arial, sans-serif" font-size="64"
+        fill="rgba(0, 0, 255, 0.4)" filter="url(#blur)">
+    H
+  </text>
+
+  <!-- Red Layer (middle) -->
+  <text x="36" y="60" font-family="'Arial Black', Arial, sans-serif" font-size="64"
+        fill="rgba(255, 0, 0, 0.4)" filter="url(#blur)">
+    H
+  </text>
+
+  <!-- White Layer (top) -->
+  <text x="32" y="60" font-family="'Arial Black', Arial, sans-serif" font-size="64"
+        fill="rgba(255, 255, 255, 0.8)" filter="url(#blur)">
+    H
+  </text>
+</svg>
